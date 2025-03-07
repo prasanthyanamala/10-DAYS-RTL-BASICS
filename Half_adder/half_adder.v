@@ -4,16 +4,18 @@
 module HALF_ADDER(
     input a,             // First input
     input b,             // Second input
-    output sum,          // Sum output
-    output carry         // Carry output
+    output reg s,          // Sum output
+    output reg c         // Carry output
 );
 
-assign sum = a ^ b;       // XOR operation for sum
-assign carry = a & b;     // AND operation for carry
-
+    always @(*)
+        begin
+        sum = a ^ b;       // XOR operation for sum
+        carry = a & b;     // AND operation for carry
+        end
 endmodule
 
-endmodule
 
 
 
+            
