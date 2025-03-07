@@ -7,15 +7,15 @@ module HALF_ADDER_TB;
     reg b;
 
     // Outputs
-    wire sum;
-    wire carry;
+    wire s;
+    wire c;
 
     // Instantiate the Unit Under Test (UUT)
     HALF_ADDER uut (
         .a(a), 
         .b(b), 
-        .sum(sum), 
-        .carry(carry)
+        .s(s), 
+        .c(c)
     );
 
     initial begin
