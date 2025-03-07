@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-//=============HALF ADDER USING DATA FLOW METHOD============//
+//=============HALF ADDER USING Behavioural METHOD============//
 module HALF_ADDER(
     input a,             // First input
     input b,             // Second input
