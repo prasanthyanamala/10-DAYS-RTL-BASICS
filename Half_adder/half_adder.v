@@ -10,8 +10,8 @@ module HALF_ADDER(
 
     always @(*)
         begin
-        sum = a ^ b;       // XOR operation for sum
-        carry = a & b;     // AND operation for carry
+        s = a ^ b;       // XOR operation for sum
+        c = a & b;     // AND operation for carry
         end
 endmodule
 
