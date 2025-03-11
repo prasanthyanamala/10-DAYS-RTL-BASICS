@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Mar 11 21:18:31 2025
+# Process ID: 10096
+# Current directory: F:/VERILOG/FULL_ADDER/FULL_ADDER.runs/synth_1
+# Command line: vivado.exe -log FULL_ADDER.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FULL_ADDER.tcl
+# Log file: F:/VERILOG/FULL_ADDER/FULL_ADDER.runs/synth_1/FULL_ADDER.vds
+# Journal file: F:/VERILOG/FULL_ADDER/FULL_ADDER.runs/synth_1\vivado.jou
+# Running On        :PRASANTH
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 5 5625U with Radeon Graphics         
+# CPU Frequency     :2296 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :7885 MB
+# Swap memory       :8363 MB
+# Total Virtual     :16249 MB
+# Available Virtual :2113 MB
+#-----------------------------------------------------------
+source FULL_ADDER.tcl -notrace
